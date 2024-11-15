@@ -32,7 +32,8 @@ Para executar o projeto localmente, siga os passos abaixo:
 
 2. **Navegue até o diretório do projeto**:
 
-escrevendo: "cd seu-repositorio" no seu gitbash
+     ```bash
+   cd seu-repositorio
 
 3. **Abra o arquivo index.html no navegador**:
 
@@ -46,8 +47,7 @@ Propósito: Bootstrap é um framework CSS que facilita a criação de layouts re
 
 Link CDN: Inclua o link para o Bootstrap CSS no <head> do seu documento HTML.
 
-html
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
 
 **Font Awesome:**
 
@@ -55,8 +55,7 @@ Propósito: Font Awesome oferece uma grande variedade de ícones vetoriais que p
 
 Link CDN: Inclua o link para o Font Awesome no <head> do seu documento HTML.
 
-html
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 **Google Fonts:**
 
@@ -64,8 +63,7 @@ Propósito: O Google Fonts permite incorporar fontes da web personalizadas, melh
 
 Link CDN: Inclua o link para a fonte desejada no <head> do seu documento HTML.
 
-html
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap">
 
 **jQuery:**
 
@@ -73,8 +71,7 @@ Propósito: jQuery é uma biblioteca JavaScript que simplifica a manipulação d
 
 Link CDN: Inclua o link para o jQuery no final do <body> do seu documento HTML, antes do seu script JavaScript personalizado.
 
-html
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
 
 **Popper.js:**
 
@@ -82,8 +79,7 @@ Propósito: Popper.js é uma biblioteca que gerencia elementos de tooltip e popo
 
 Link CDN: Inclua o link para o Popper.js no final do <body> do seu documento HTML, antes do seu script JavaScript personalizado.
 
-html
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>
 
 **Bootstrap JavaScript:**
 
@@ -91,8 +87,7 @@ Propósito: O JavaScript do Bootstrap adiciona funcionalidades dinâmicas aos co
 
 Link CDN: Inclua o link para o Bootstrap JavaScript no final do <body> do seu documento HTML, antes do seu script JavaScript personalizado.
 
-html
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap
 
 
 
