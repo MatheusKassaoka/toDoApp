@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Atividades</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap">
+
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+        <a class="navbar-brand" href="#">Registro de atividades</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <section class="vh-100" style="background-color: #f3e5f5;">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12">
+                    <div class="card rounded-3 shadow" style="background-color: #e8f5e9;">
+                        <div class="card-body p-4">
+                            <h4 class="text-center my-3 pb-3" style="font-family: 'Edu AU VIC WA NT Pre', cursive;">Digite aqui o que deseja</h4>
+
+                            <form id="taskForm" class="row g-3 justify-content-center align-items-center mb-4 pb-2">
+                                <div class="col-md-8 mb-3">
+                                    <input type="text" class="form-control" placeholder="Task Description" id="taskInput" required />
+                                </div>
+
+                                <div class="col-md-4 mb-3 d-flex justify-content-center">
+                                    <button type="submit" class="btn btn-dark w-100">Save</button>
+                                </div>
+                            </form>
+
+                            <ul id="taskList" class="list-group"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
